@@ -8,7 +8,6 @@
 - Edit existing tasks
 - Delete tasks from the todo list
 - Mark tasks as completed
-- Installation
 
 ## To install this app, follow these steps:
 
@@ -20,8 +19,6 @@
 ## Usage
 
 - Once the app is running, you can access it by visiting http://localhost:3000 in your web browser.
-
-# Todo Functionality
 
 ## To add a new task to the todo list:
 
@@ -49,5 +46,3 @@
 - React
 - TypeScript
 - Ant Design
-- React Router
-- Local Storage

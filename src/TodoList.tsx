@@ -16,6 +16,12 @@ const TodoList: FC<Props> = ({ todos, setTodos }) => {
     const todoList = JSON.parse(localStorage.getItem("todos") || "[]");
     const todoIndex = todoList.findIndex((todo: Todo) => todo.id === id);
 
+    // if (todoList[todoIndex].completed === true) {
+    //   todoList[todoIndex].completed = false;
+    // } else {
+    //   todoList[todoIndex].completed = true;
+    // }
+
     todoList[todoIndex].completed = !todoList[todoIndex].completed;
     localStorage.setItem("todos", JSON.stringify(todoList));
     setTodos(todoList);
